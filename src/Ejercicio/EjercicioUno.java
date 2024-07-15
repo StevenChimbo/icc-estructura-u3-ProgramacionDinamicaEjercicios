@@ -29,7 +29,19 @@ import java.util.List;
  */
 public class EjercicioUno {
 
-    // List<List<Integer>> subsets(List<Integer> set) {
+    public List<List<Integer>> subsets(List<Integer> set) {
+        //Manejamos e instanciamos un Array List para utilizar una lista de arreglos
+        List<List<Integer>> subsets = new ArrayList<>();
+        subsets.add(new ArrayList<>());
+        for (int num : set) {
+            int size = subsets.size();
+            for (int i = 0; i < size; i++) {
+                List<Integer> subset = new ArrayList<>(subsets.get(i));
+                subset.add(num);
+                subsets.add(subset);
+            }
+        }
+        return subsets;
 
-    // }
+    }
 }

@@ -183,3 +183,6 @@ To contribute to this project, please create a fork and send a pull request, or 
 ## Authors
 
 - [PABLO TORRES] - Initial development
+- [STEVEN CHIMBO] - Final development
+- 
+03.02 Practica en Clase
