@@ -185,4 +185,4 @@ To contribute to this project, please create a fork and send a pull request, or 
 - [PABLO TORRES] - Initial development
 - [STEVEN CHIMBO] - Final development
 - 
-03.02 Practica en Clase
+3.2.1 Practica en Clase
