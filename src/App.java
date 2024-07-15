@@ -20,12 +20,12 @@ public class App {
         
         EjercicioDos ejercicioDos = new EjercicioDos();
         
-        // Ejemplo 1
+        // Ejemplo uno
         int n1 = 1;
         List<String> result1 = ejercicioDos.generateParenthesis(n1);
         System.out.println("Ejemplo 1 para n=" + n1 + ": " + result1);
         
-        // Ejemplo 2
+        // Ejemplo dos
         int n2 = 3;
         List<String> result2 = ejercicioDos.generateParenthesis(n2);
         System.out.println("Ejemplo 2 para n=" + n2 + ": " + result2);
